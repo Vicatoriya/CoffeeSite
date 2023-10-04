@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@700&family=Noto+Sans:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color:#222831;
+    width: 1440px;
+    height: 7057px;
+    color:white;
+    margin: auto;
+}
+ul{
+    list-style:none;
+}
+header p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+header li{
+    float: left;
+    margin: 61px 0 0 63px;
+}
+.icon{
+    float: right;
+    margin:43px 60px 0 0;
+}
+p{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+}
