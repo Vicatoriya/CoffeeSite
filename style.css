@@ -5,7 +5,7 @@
     padding: 0;
 }
 .container{
-    background-image: url(/imgfolder/back_and_icons.png);
+    background-image: url(back_and_icons.png);
     width: 1440px;
     height: 7057px;
     color:white;
@@ -35,7 +35,7 @@ header{
 }
 .special_picture{
     position: absolute;
-    right:31px;
+    left:625px;
     top:142px;
 }
 .first_section .text{
