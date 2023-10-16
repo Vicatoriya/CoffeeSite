@@ -5,13 +5,14 @@
     padding: 0;
 }
 .container{
-    background-image: url(imgfolder/back_and_icons.png);
+    background-image: url(/imgfolder/back_and_icons.png);
     width: 1440px;
     height: 7057px;
     color:white;
     margin: auto;
     font-family: 'Montserrat', sans-serif;
     float: left;
+     /* letter-spacing: 1.2px;  */
 }
 ul{
     list-style:none;
@@ -102,6 +103,7 @@ button{
     height: 828px;
     margin-top: -4px;
     display: flex;
+    gap: 190px;
 }
 .second_section .first_piece{
     margin: 100px 0 0 100px;
@@ -111,9 +113,6 @@ button{
     margin: 46px 0 0 35px;
     letter-spacing: 5px;
     line-height: 112.5px;
-}
-.blank_space{
-    width: 190px;
 }
 .second_section img{
     margin: 35px 0 0 83.5px;
@@ -146,9 +145,7 @@ button{
     margin-top: -40px;
     margin-left: 100px; 
     display: flex;
-}
-.blank_space_hot{
-    width: 201px;
+    gap: 200px;
 }
 .hot_text{
     font-family: 'Grand Hotel', cursive;
@@ -160,7 +157,7 @@ button{
 }
 .circlecup1{
     margin-left: 35px;
-    margin-top: -3px;
+    margin-top: -2px;
 }
 .paragraphs_hot {
     margin: 31.8px 0 0 33px;
@@ -170,31 +167,29 @@ button{
     word-spacing: 70%;
 }
 .twocups_section button{
-    margin: 51px 0 0 85px;
+    margin: 52px 0 0 85px;
     background-color:rgb(41, 161, 156);
 }
 .white_section{
     display: flex;
+    gap: 277px;
     position: relative;
     top: -90px;
     left: 130px;
 }
 .white_text{    
     font-family: 'Grand Hotel', cursive;
-    font-size: 124px;
-    margin: 49px 0 70px 3.5px;
+    font-size: 125px;
+    margin: 50px 0 70px 4px;
     letter-spacing: 5px;
     line-height: 112.5px;
 }
-.blank_space_white{
-    width: 280px;
-}
 .paragraphs_white {
-    margin: 34px 13px 0 -26px;
-    font-size: 21px;
-    letter-spacing: 1.7px;
-    line-height: 39px;
-    word-spacing: 65%;
+    margin: 35px 17px 0 -30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40.2px;
+    word-spacing: 67%;
     text-align: right;
 }
 .circlecup2{
@@ -202,6 +197,6 @@ button{
     margin-top: 33px;
 }
 .white_section button{
-    margin: 29px 0 0 5px;
+    margin: 28px 0 0 5px;
     background-color:rgb(41, 161, 156);
 }
