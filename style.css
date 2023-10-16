@@ -12,7 +12,11 @@
     margin: auto;
     font-family: 'Montserrat', sans-serif;
     float: left;
-     /* letter-spacing: 1.2px;  */
+     
+}
+
+main{
+    height: 6423px;
 }
 ul{
     list-style:none;
@@ -25,6 +29,12 @@ nav p{
 nav li{
     float: left;
     margin: 53.5px 0 0 49px;
+}
+header a:link{
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
 }
 .icon{
     float: right;
@@ -71,6 +81,10 @@ button{
     word-spacing: -1.5px;
     color: white;
     cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    box-shadow: 0 0 0 2px #fff;
 }
 .text button{
     margin: 0 0 38px 6px;
@@ -200,3 +214,358 @@ button{
     margin: 28px 0 0 5px;
     background-color:rgb(41, 161, 156);
 }
+
+.third_section {
+    
+    width: 1440px;
+   
+    /* margin: auto; */
+    position: relative;
+    top: -210px;
+    float: left;
+} 
+p.vouch {
+    font-family: "grand hotel";
+    font-size: 130.93px;
+    color : white;
+    text-align: center;
+    margin-top: 24px;
+    margin-right: 50px;
+}
+
+img.vouchImg {
+    
+    display: block;
+    margin: -11px auto 10px;
+    padding-right : 24px;
+    
+}
+
+
+.butVB {
+    display: block;
+    margin-left:auto ;
+    margin-right: auto; 
+    background-color:rgb(41, 161, 156);
+   
+    width: 360px;
+    margin-top: 5px;
+    margin-bottom : 70px;
+    transition: 0.4s;
+  
+    
+}
+.butVB:hover{
+    box-shadow: 0 0 0 2px #fff;
+} 
+
+p.main {
+    font-family: "grand hotel";
+    font-size: 87.5px;
+    color : white;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.fleximg {
+    
+    display: flex;
+    justify-content:space-evenly;
+
+    margin-top: 50px;
+}
+
+img.boy {
+    padding-right: 15px;
+}
+
+.jenam, .jenam1 {
+    font-family: "grand hotel";
+    font-size: 50px;
+    color : white;
+    text-align: center; 
+    margin-top: 50px;
+}
+.jenam{
+    margin-left: -6px;
+}
+.jenam1 {
+    margin-right: 8px;
+}
+
+p.strtext {
+    font-family: "montserrat";
+    font-size: 25px;
+    color : white;
+    text-align: center; 
+    margin-top: 18px;
+    
+    width: 478px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    word-spacing : 3px;
+}
+
+.flex {
+    display: flex;
+    justify-content:center ;
+}
+
+.item_1{
+    margin-right: 78px;
+    margin-left: -3.5px;
+}
+.item_2{
+    margin-left: 65px;
+}
+
+img.waws {
+    display :block;
+    margin-top: -8px;
+}
+
+div.forback {
+    background-image: url(imgfolder/fon.png);
+    margin-top: -55px; 
+    overflow: hidden;
+    padding-bottom: 42px;
+}
+
+p.titwao {
+    font-family: "grand hotel";
+    margin-top: 36px;
+    font-size: 97.78px;
+    color : white;
+    text-align: center;
+    word-spacing: 1.2px;
+    letter-spacing: 3.7px;
+    margin-left: 3px;
+}
+
+p.tdate {
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 37.5px;
+    color : white;
+    text-align: center; 
+    margin-top: 1.5px;
+}
+
+p.tocl {
+    font-family: "montserrat";
+    font-size: 37.5px;
+    color : white;
+    text-align: center;
+    padding-top: 3px;
+   
+}
+
+div.dat1 {
+    padding-top: 76px;
+    margin-right: 7px;
+}
+
+div.dat2 {
+    padding-top: 95px;
+    margin-left: -5px;
+}
+.waws1{
+    margin-top: 0px;
+}
+
+.wrapper{  /*контейнер с частью Our Branches*/
+    max-width: 1440;
+    max-height: 900px;
+    margin-left: auto;
+    margin-left: auto;
+    position: relative;
+    top: -219px;
+}
+
+.our_branches li{
+    float: left;
+    margin: 61px 0 0 63px; 
+}
+
+.branches_heading{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 87.5px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 7px;
+    word-spacing: 1.5px;
+    letter-spacing: 3.3px;;
+   
+}
+
+.branches_pictures{
+    width: 1271px;
+    height: 281px;
+    margin-left: 85px;
+    
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three_branches{
+    position: relative;
+    width: 1300px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+.branches_names{
+    width: 1310px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 32.5px;
+    letter-spacing: 2.45px;
+    margin-right: 80px;
+}
+.branches_names p{
+    width: 280px;
+    font-weight: bold;
+    text-align: center; 
+    margin-top: 47.5px;
+    margin-bottom: 17px;
+    margin-left: 9px;
+    margin-right: 11px;
+    position: relative;
+}
+.branch2{
+    padding-left: 15px;
+}  
+.branch3{
+    padding-right: 16px;
+} 
+.textcloud{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 38px; 
+}
+
+.descriptions{
+    margin-bottom: 45px;
+    
+}
+
+.branches_description {
+    display: flex;
+    justify-content: space-between;
+}
+.branches_description p{
+    margin-top: 29px;
+    font-family: 'Montserrat', regular;
+    font-size: 14.85px;
+    text-align: center;
+    display: flex;
+    margin-right: 60px;
+    margin-left: 50px;
+    line-height: 186%;
+    letter-spacing: 0.6px;
+    word-spacing: 1px;
+    width: 335px;
+}
+.middle_paragraph{
+    padding-left: 10px;
+}
+
+
+
+
+.footer {          
+    height: 476px; 
+    width: 1440px;
+    background-color: rgb(41, 161, 156);
+    color:white;
+    position: relative;
+    margin-top: -5px;
+  }
+
+.footer_logo{
+    float: left;
+    margin-left: 59px;
+    margin-top: 48px;
+    
+}
+.footer_nav{
+    margin-bottom: 72px;
+}
+
+
+.sectionname li{
+    float:right; 
+    font-size: 33px;
+    font-weight: bold;
+    margin-top: 54px;
+    margin-right: 87.5px;
+    margin-left: 37px;
+    margin-bottom: 54px;
+    letter-spacing: 1.5px;
+   
+}
+
+
+.columns p{
+    margin-bottom: 15.6px;
+    line-height: 21px;
+}
+
+
+.columns{
+    height: 115px;
+    width: 1440px;
+    font-family: 'Montserrat', regular;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 22.23px;
+    letter-spacing: 1.3px;
+    column-gap: 200px;
+}
+.footer_menu li{   
+    float: left;  
+    margin-left: 61px; 
+    margin-right: 5.17px;
+    margin-top: 76px;
+    display: flex;  
+    align-items: flex-end;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19.4px; 
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.footer a{
+    text-decoration: none;
+    color:white;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: #006863;
+}
+.firstcolumn{
+    margin-right: 43px; 
+}
+
+.secondcolumn p{
+    margin-right: 56px;
+    margin-bottom: 17px;
+}
+.blank_block{
+    width: 200px;
+} 
+.social_networks{
+    width: 108px;
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 75px;
+    margin-right: 90px;
+    letter-spacing: 15px;
+} 
+.social_networks i{
+    margin-right: 30px;
+    font-size: 23px; 
+}
+
