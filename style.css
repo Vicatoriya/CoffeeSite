@@ -480,13 +480,13 @@ div.dat2 {
     background-color: rgb(41, 161, 156);
     color:white;
     position: relative;
-    margin-top: -5px;
+    margin-top: -6px;
   }
 
 .footer_logo{
     float: left;
     margin-left: 59px;
-    margin-top: 48px;
+    margin-top: 49px;
     
 }
 .footer_nav{
@@ -527,7 +527,7 @@ div.dat2 {
     float: left;  
     margin-left: 61px; 
     margin-right: 5.17px;
-    margin-top: 76px;
+    margin-top: 77px;
     display: flex;  
     align-items: flex-end;
     font-family: 'Montserrat', sans-serif;
