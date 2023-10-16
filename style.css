@@ -16,7 +16,7 @@
 }
 
 main{
-    height: 6423px;
+    height: 6421px;
 }
 ul{
     list-style:none;
@@ -475,7 +475,7 @@ div.dat2 {
 
 
 .footer {          
-    height: 476px; 
+    height: 478px; 
     width: 1440px;
     background-color: rgb(41, 161, 156);
     color:white;
@@ -486,7 +486,7 @@ div.dat2 {
 .footer_logo{
     float: left;
     margin-left: 59px;
-    margin-top: 49px;
+    margin-top: 51px;
     
 }
 .footer_nav{
@@ -498,7 +498,7 @@ div.dat2 {
     float:right; 
     font-size: 33px;
     font-weight: bold;
-    margin-top: 54px;
+    margin-top: 56px;
     margin-right: 87.5px;
     margin-left: 37px;
     margin-bottom: 54px;
