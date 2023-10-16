@@ -5,14 +5,13 @@
     padding: 0;
 }
 .container{
-    background-image: url(/imgfolder/back_and_icons.png);
+    background-image: url(imgfolder/back_and_icons.png);
     width: 1440px;
     height: 7057px;
     color:white;
     margin: auto;
     font-family: 'Montserrat', sans-serif;
     float: left;
-     /* letter-spacing: 1.2px;  */
 }
 ul{
     list-style:none;
@@ -182,8 +181,8 @@ button{
 }
 .white_text{    
     font-family: 'Grand Hotel', cursive;
-    font-size: 125px;
-    margin: 50px 0 70px 4px;
+    font-size: 124px;
+    margin: 49px 0 70px 3.5px;
     letter-spacing: 5px;
     line-height: 112.5px;
 }
@@ -191,11 +190,11 @@ button{
     width: 280px;
 }
 .paragraphs_white {
-    margin: 35px 17px 0 -30px;
-    font-size: 20px;
-    letter-spacing: 2px;
-    line-height: 40.2px;
-    word-spacing: 67%;
+    margin: 34px 13px 0 -26px;
+    font-size: 21px;
+    letter-spacing: 1.7px;
+    line-height: 39px;
+    word-spacing: 65%;
     text-align: right;
 }
 .circlecup2{
