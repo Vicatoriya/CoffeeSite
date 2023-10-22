@@ -21,14 +21,13 @@ main{
 ul{
     list-style:none;
 }
-nav p{
-    font-size: 25px;
-    font-weight: bold;
-    letter-spacing: 1.15px;
-}
+
 nav li{
     float: left;
     margin: 53.5px 0 0 49px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1.15px;
 }
 header a:link{
     text-decoration: none;
@@ -219,7 +218,7 @@ button:hover{
     
     width: 1440px;
    
-    /* margin: auto; */
+    
     position: relative;
     top: -210px;
     float: left;
@@ -507,7 +506,7 @@ div.dat2 {
 }
 
 
-.columns p{
+.columns li{
     margin-bottom: 15.6px;
     line-height: 21px;
 }
@@ -548,13 +547,11 @@ div.dat2 {
     margin-right: 43px; 
 }
 
-.secondcolumn p{
+.secondcolumn li{
     margin-right: 56px;
     margin-bottom: 17px;
 }
-.blank_block{
-    width: 200px;
-} 
+
 .social_networks{
     width: 108px;
     float: right;
