@@ -161,7 +161,7 @@ button:hover{
 .hot_text{
     font-family: 'Grand Hotel', cursive;
     font-size: 125px;
-    margin: 49px 6.5px 50px 0;
+    margin: 50px 6.5px 50px 0;
     letter-spacing: 5px;
     line-height: 112.5px;
     text-align: right;
@@ -192,21 +192,22 @@ button:hover{
 .white_text{    
     font-family: 'Grand Hotel', cursive;
     font-size: 125px;
-    margin: 50px 0 70px 4px;
+    margin: 51.5px 0 70px 4px;
     letter-spacing: 5px;
     line-height: 112.5px;
 }
 .paragraphs_white {
-    margin: 35px 17px 0 -30px;
+    width: 570px;
+    margin: 35px 0 0 -35px;
     font-size: 20px;
     letter-spacing: 2px;
-    line-height: 40.2px;
+    line-height: 40px;
     word-spacing: 67%;
     text-align: right;
 }
 .circlecup2{
     margin-left: 28px;
-    margin-top: 33px;
+    margin-top: 34px;
 }
 .white_section button{
     margin: 28px 0 0 5px;
