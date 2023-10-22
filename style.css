@@ -492,11 +492,13 @@ div.dat2 {
     margin-bottom: 72px;
 }
 
+.sectionname h4{
+    font-weight: bold;
+}
 
 .sectionname li{
     float:right; 
     font-size: 33px;
-    font-weight: bold;
     margin-top: 56px;
     margin-right: 87.5px;
     margin-left: 37px;
