@@ -158,7 +158,7 @@ button:hover{
     margin-top: -40px;
     margin-left: 100px; 
     display: flex;
-    gap: 200px;
+    gap: 183px;
 }
 .hot_text{
     font-family: 'Grand Hotel', cursive;
@@ -173,11 +173,12 @@ button:hover{
     margin-top: -2px;
 }
 .paragraphs_hot {
-    margin: 31.8px 0 0 33px;
-    font-size: 23.4px;
+    width: 620px; 
+    margin: 31.7px 0 0 33px;
+    font-size: 23.3px;
     letter-spacing: 1.1px;
     line-height: 41px;
-    word-spacing: 70%;
+    word-spacing: 71%;
 }
 .twocups_section button{
     margin: 52px 0 0 85px;
