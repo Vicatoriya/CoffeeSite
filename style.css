@@ -14,9 +14,7 @@
     float: left;
      
 }
-h1,h2,h3,h4,h5,h6{
-    font-weight: 400;
-}
+
 main{
     height: 6421px;
 }
@@ -124,12 +122,10 @@ button:hover{
     margin: 100px 0 0 100px;
 }
 .second_section .first_text{
+    font-size: 125px;
     margin: 46px 0 0 35px;
     letter-spacing: 5px;
     line-height: 112.5px;
-}
-.first_text h2{
-    font-size: 125px;
 }
 .second_section img{
     margin: 35px 0 0 83.5px;
@@ -139,7 +135,6 @@ button:hover{
     background-color:#222831;
 }
 .second_section .paragraphs{
-    width: 680px;
     margin: 32px 0 0 4px;
     font-size: 23.67px;
     letter-spacing: 1.45px;
@@ -228,7 +223,7 @@ button:hover{
     top: -210px;
     float: left;
 } 
-p.vouch {
+.vouch {
     font-family: "grand hotel";
     font-size: 130.93px;
     color : white;
@@ -243,6 +238,10 @@ img.vouchImg {
     margin: -11px auto 10px;
     padding-right : 24px;
     
+}
+
+h2, h3, h4 {
+    font-weight : 400;
 }
 
 
@@ -263,7 +262,7 @@ img.vouchImg {
     box-shadow: 0 0 0 2px #fff;
 } 
 
-p.main {
+h3.main {
     font-family: "grand hotel";
     font-size: 87.5px;
     color : white;
@@ -335,7 +334,7 @@ div.forback {
     padding-bottom: 42px;
 }
 
-p.titwao {
+.titwao {
     font-family: "grand hotel";
     margin-top: 36px;
     font-size: 97.78px;
@@ -570,3 +569,4 @@ div.dat2 {
     margin-right: 30px;
     font-size: 23px; 
 }
+
