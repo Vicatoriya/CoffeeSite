@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+}
 .container{
     background-image: url(imgfolder/back_and_icons.png);
     width: 1440px;
@@ -122,10 +125,12 @@ button:hover{
     margin: 100px 0 0 100px;
 }
 .second_section .first_text{
-    font-size: 125px;
     margin: 46px 0 0 35px;
     letter-spacing: 5px;
     line-height: 112.5px;
+}
+.second_section .first_text h2{
+    font-size: 125px;
 }
 .second_section img{
     margin: 35px 0 0 83.5px;
@@ -135,19 +140,12 @@ button:hover{
     background-color:#222831;
 }
 .second_section .paragraphs{
-    margin: 32px 0 0 4px;
+    margin-top: 32px;
     font-size: 23.67px;
     letter-spacing: 1.45px;
     line-height: 39.2px;
-}
-.one_tab{
-    margin-left: 2px;
-}
-.two_tab{
-    margin-left: 59px;
-}
-.three_tab{
-    margin-left: 83px;
+    text-align: right;
+    width: 630px;
 }
 .upperwave{
     position: relative;
@@ -566,4 +564,3 @@ div.dat2 {
     margin-right: 30px;
     font-size: 23px; 
 }
-
